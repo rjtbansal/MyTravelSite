@@ -1,0 +1,5 @@
+.main-hawaii-background{
+    /* background: url(../assets/hawaii.jpg) left 10% bottom 55%/cover no-repeat border-box; */
+    background: no-repeat center/80% url(../assets/hawaii.jpg);
+    height: 528px;
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 1280px;
+    height: 1040px;
+    font-family: Verdana;
+}
+
+.main-hero__image{
+    height: 20rem;
+    width: 26.75rem;
+}
+
+.main-recommendation__image{
+    height: 20rem;
+    width: 16rem;
+}
+
+.main-recommendation{
+    position: relative;
+}
+
+.main-recommendations__images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-recommendation__image--text{
+   position: absolute;
+   right: 10px;
+   bottom: 0px;
+   color: white; 
+}
