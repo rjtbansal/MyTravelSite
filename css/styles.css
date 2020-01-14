@@ -3,9 +3,13 @@
 }
 
 body{
-    width: 1280px;
-    height: 1040px;
+    width: 80rem;
+    height: 65rem;
     font-family: Verdana;
+}
+
+.main{
+    height: inherit;
 }
 
 .main-hero__image{
@@ -29,7 +33,7 @@ body{
 
 .main-recommendation__image--text{
    position: absolute;
-   right: 10px;
-   bottom: 0px;
+   right: 0.625rem;
+   bottom: 0;
    color: white; 
 }
