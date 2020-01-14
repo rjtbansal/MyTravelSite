@@ -2,13 +2,19 @@
     background: url(../assets/hawaii.jpg) left 10% bottom 45%/cover no-repeat border-box;  
 }
 
+.iceland-background{
+    background: url(../assets/iceland.jpg) left 10% bottom 45%/cover no-repeat border-box;
+}
+
+.greece-background {
+    background: url(../assets/greece.jpg) left 10% bottom 45%/cover no-repeat border-box;
+}
+
 .destination-background__title{
     color: white;
 }
 
-.iceland-background{
-    background: url(../assets/iceland.jpg) left 10% bottom 45%/cover no-repeat border-box;
-}
+
 
 .destination-background__height{
     height: 50rem;
