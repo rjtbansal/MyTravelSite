@@ -1,5 +1,5 @@
 .hawaii-background{
-    background: url(../assets/hawaii.jpg) left 10% bottom 45%/cover no-repeat border-box;  
+    background: url(../assets/hawaii.jpg) left 10% bottom 42%/cover no-repeat border-box;  
 }
 
 .iceland-background{
@@ -32,22 +32,24 @@
     background-color: white;
     margin-top: 2rem;
     margin-right: 2rem;
-    width: 15%;
+    width: 20%;
 }
 
 .schedule__list{
     list-style: none;
     padding: 0;
     text-align: center;
+    margin-top: 1.5rem;
 }
 
 .schedule__day {
     border-bottom: 2px solid black;
     text-align: center;
+    margin: 0.5rem;
 }
 
 .schedule__activity{
     background-color: #f0f0f0;
     padding: 1rem 0;
-    margin: 0.5rem;
+    margin: 0 0.8rem 0.8rem 0.8rem;
 }
