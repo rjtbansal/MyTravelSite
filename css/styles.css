@@ -86,18 +86,27 @@ body{
     margin-left: 10rem;
 }
 
+.main-recommendations__title{
+    color: #101d42;
+    padding-left: 10rem;
+}
+
 .main-recommendation__image{
     height: 20rem;
     width: 16rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.20);
+    box-shadow: 0 4px 4px rgba(0,0,0,0.20);
 }
 
 .main-recommendation{
     position: relative;
+    margin: 1rem;
 }
 
 .main-recommendations__images{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .main-recommendation__image--text{
