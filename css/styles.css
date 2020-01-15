@@ -23,6 +23,10 @@ body{
     margin: 0 1rem;
 }
 
+.nav-link {
+    text-decoration: none;
+}
+
 .main{
     height: inherit;
 }
