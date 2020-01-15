@@ -4,6 +4,7 @@
 
 body{
     font-family: Verdana;
+    margin:0;
 }
 
 .header{
@@ -17,10 +18,12 @@ body{
 
 .header__title {
     color: #2d3982;
+    padding-left: 4rem;
 }
 
 .header-nav-list{
     display: flex;
+    padding-right: 4rem;
 }
 
 .header-nav-list__item{
@@ -32,14 +35,55 @@ body{
     text-decoration: none;
 }
 
+
+.nav-link.active {
+    border-bottom: 2px solid #e37889;
+    padding-bottom: 10px;
+}
+
+
+
 .main{
     height: inherit;
     padding-top: 4rem;
 }
 
+.main-hero {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 4rem;
+}
+
+.main-hero__text {
+    padding-left: 4rem;
+    /* width: 47%; */
+}
+.main-hero__slogan {
+    font-family: 'Comic Sans MS';
+    font-size: 2rem;
+    color: #101d42;
+    width: 90%;
+}
+
+.main-hero__description{
+    text-align: left;
+}
+
+.main-hero__button {
+    background-color: #5969d0;
+    padding: 0.5rem 2rem;
+    color: white;
+    border-radius: 2rem;
+    border-style: hidden;  /*hides the by default button shadow*/
+}
+
 .main-hero__image{
     height: 20rem;
     width: 26.75rem;
+    margin-left: 10rem;
 }
 
 .main-recommendation__image{
