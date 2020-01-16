@@ -35,12 +35,11 @@ body{
     text-decoration: none;
 }
 
-
-.nav-link.active {
+/* added hover feature as part of deeper dive */
+.nav-link.active, .nav-link:hover {
     border-bottom: 2px solid #e37889;
     padding-bottom: 10px;
 }
-
 
 
 .main{
@@ -78,6 +77,7 @@ body{
     color: white;
     border-radius: 2rem;
     border-style: hidden;  /*hides the by default button shadow*/
+    cursor: pointer;
 }
 
 .main-hero__image{
@@ -94,6 +94,11 @@ body{
 .main-recommendation__image{
     height: 20rem;
     width: 16rem;
+}
+
+/* added hover feature as part of deeper dive */
+.main-recommendation__image:hover{
+    border: 4px solid #e37889;
 }
 
 .card-border-styling {
